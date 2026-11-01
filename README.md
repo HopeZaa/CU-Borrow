@@ -164,3 +164,8 @@ To provision the first admin, put the server-only `SUPABASE_SERVICE_ROLE_KEY` in
 This repository contains application source and database migrations. It does not contain production data, uploaded files, account credentials, local environment values, or Vercel project linkage. Copy `.env.example` locally and supply your own configuration. Never commit `.env.local`, seed credentials, database exports, private keys, or `.vercel/`.
 
 Before committing, inspect `git diff --cached` and run `gitleaks git --redact`. Keep secret values in your local environment or hosting provider's secret settings. If a secret is ever published, revoke or rotate it; deleting the latest file does not remove it from Git history.
+
+
+## License
+
+Copyright © 2026 HopeZaa. เผยแพร่ภายใต้ [GNU General Public License v3.0](LICENSE) (`GPL-3.0-only`).
