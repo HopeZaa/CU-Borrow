@@ -1,0 +1,16 @@
+project_id = "cu-borrow"
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+[db]
+port = 54322
+major_version = 17
+[db.seed]
+enabled = false
+[auth]
+site_url = "http://localhost:3000"
+additional_redirect_urls = ["http://localhost:3000/auth/callback", "http://localhost:3000/auth/confirm", "http://localhost:3000/reset-password"]
+[auth.email]
+enable_signup = true
+enable_confirmations = true
